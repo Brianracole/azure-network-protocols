@@ -15,15 +15,15 @@
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows 10 (22H2)
+- Ubuntu Server 22.04
 
 <h2>High-Level Steps</h2>
 
 - Deploy Two Virtual Machines in Azure
 - Configure and Test NSGs
-- Inspect Network Traffic with Wireshark
-- Analyze the Effect of NSG Rule Changes
+- Inspect Network Traffic with Wireshark and observe the ICMP, SSH, DHCP, DNS, and RDP traffic
+- Configured and tested the NSG Rule Changes
 
 <h2>Actions and Observations</h2>
 
