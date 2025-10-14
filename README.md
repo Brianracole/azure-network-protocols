@@ -51,6 +51,8 @@ We see the results of the inbound security rules taking effect; it has put a tim
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Connecting to the Ubuntu VM via SSH generates traffic that can be observed in Wireshark, showing that any keystroke traffic is visible.
+
+
 </p>
 <br />
