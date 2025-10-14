@@ -20,23 +20,26 @@
 
 <h2>High-Level Steps</h2>
 
-- Deploy Two Virtual Machines in Azure
-- Configure and Test NSGs
-- Inspect Network Traffic with Wireshark and observe the ICMP, SSH, DHCP, DNS, and RDP traffic
-- Configured and tested the NSG Rule Changes
+- Create a resource group, virtual network, and deploy both Windows and Ubuntu virtual machines in Azure.
+- Configure inbound security rules on the Network Security Groups (NSGs) to deny RDP, SSH, HTTP, and ICMP traffic between the VMs.
+- Connect to the Windows VM via Remote Desktop, install and open Wireshark, and observe the network traffic between the Windows and Ubuntu VMs using various protocols.
+- Observe and analyze the captured network traffic in Wireshark, then modify NSG rules to see how traffic behavior changes when rules are added, removed, or restricted.
 
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2559" height="1391" alt="image" src="https://github.com/user-attachments/assets/f523d689-5966-4556-a05f-a1ef55658c8f" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the network settings of the Ubuntu VM, we add security rules to the Network Security Groups to deny ping, which we established to observe the results in Wireshark on the Windows VM.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/c842097c-1d3a-4bd4-b1c7-dfe1e555652d" />
+
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
