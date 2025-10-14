@@ -32,7 +32,7 @@
 
 </p>
 <p>
-In the network settings of the Ubuntu VM, we add security rules to the Network Security Groups to deny ping, which we established to observe the results in Wireshark on the Windows VM.
+In the network settings of the Ubuntu VM, we add inbound security rules to the Network Security Groups to deny ping, which we established to observe the results in Wireshark on the Windows VM.
 </p>
 <br />
 
@@ -42,7 +42,7 @@ In the network settings of the Ubuntu VM, we add security rules to the Network S
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We see the results of the inbound security rules taking effect; it has put a timeout on the continuous ping we established by PowerShell.
 </p>
 <br />
 
